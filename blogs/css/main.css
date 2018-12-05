@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+}
+ul li{
+    list-style: none;
+}
+.clearFix{
+    display: block;
+    content: "";
+    clear: both;
+}
+nav {
+    background: #ccc;
+    height: 50px;
+}
+#banner{
+    height: 700px;
+    background: transparent;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    float: right;
+
+}
+nav ul li,nav .logo{
+    display: inline-block;
+    line-height: 50px;
+    /*float: right;*/
+    margin-right: 20px;
+}
+nav  a{
+    line-height: 50px;
+    text-decoration: none;
+    height: inherit;
+    color: #ffffff;
+}
+nav .logo{
+    float: left;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+#banner .inner{
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 160px;
+}
+#banner .inner h1{
+    margin: 0;
+}
+button{
+    background: #333;
+    border: none;
+    color: #eee;
+    padding: 10px;
+}
+#banner button{
+    padding: 14px 60px;
+}
+#banner .inner .more{
+    margin-top: 280px;
+}
+.seb-heading{
+    line-height: 30px;
+    margin: 30px;
+}
+
+/*   主体部分  */
+.content{
+
+}
+.green-section{
+    text-align: center;
+    background: #54e4ff;
+    color: #ffffff;
+    padding: 100px 0;
+}
+.hr{
+    width: 100%;
+    height: 2px;
+    margin: 20px auto;
+}
+.green-section .hr {
+    width: 60%;
+    background: #3aaabf;
+    margin: 20px auto;
+}
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.green-section .icon-group{
+    margin: 20px 0;
+}
+.green-section .icon-group .icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #00bcd4;
+    transform: rotate(45deg);
+    margin: 20px;
+    /*background: url("../img/pic00.png") no-repeat;*/
+}
+
+.gray-section{
+    background-color: #272a2d;
+}
+.gray-section:nth-child(odd){
+    background-color: #5c5f63;
+}
+.gray-section .img-section{
+    width: 45%;
+}
+.article-preview{
+    font-size: 0;
+    color: #fff;
+}
+/*article-preview > h2{
+    font-size: 26px;
+}*/
+.article-preview > div{
+    float: left;
+}
+.img-section img{
+    width: 100%;
+}
+.text-section > * {
+    max-width: 90%;
+}
+.gray-section .text-section{
+    width: 55%;
+}
+.gray-section:after{/*清除浮动*/
+    display: block;
+    content: "";
+    clear: both;
+}
+.text-section{
+    position: relative;
+    top: 68px;
+    left: 50px;
+}
+.text-section  h2{
+    letter-spacing: 1px;
+    font-size: 26px;
+}
+.text-section p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.text-section .sub-heading{
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+
+/*        */
+.purple-section{
+    background: #4e3d61;
+    color: #fff;
+    padding: 80px;
+}
+.purple-section .heading-wrapper{
+    text-align: center;
+}
+.purple-section .hr{
+    background: #00bcd4;
+    width: 60%;
+}
+.card-group{
+    display: inline-block;
+}
+.card{
+    float: left;
+    width: 50%;
+    min-width: 300px;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*border: 1px solid white;*/
+}
+.card p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.card:first-child{
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.card:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.card:nth-child(3){
+    background-color: rgba(0, 0, 0, 0.12);
+}
+.card:nth-child(4){
+    background-color: rgba(0, 0, 0, 0.16);
+}
+.card:nth-child(5){
+    background-color: rgba(0, 0, 0, 0.20);
+}
+.card:nth-child(6){
+    background-color: rgba(0, 0, 0, 0.24);
+}
+footer{
+    color: white;
+    background: #3d3942;
+    min-height: 175px;
+    text-align: center;
+}
+ul.share-group{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.share-group li{
+    display: inline-block;
+    padding: 10px;
+}
+.copy{
+    padding-bottom: 20px;
+}
+.main-wrapper{
+    background: #444 url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.06);
+}
